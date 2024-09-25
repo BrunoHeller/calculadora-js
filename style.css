@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(35, 35, 35);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9d00ff;
+    font-size: 35px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+input {
+    border: #9d00ff solid 4px;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+select {
+    display: flex;
+    border: #9d00ff solid 4px;
+    border-radius: 18px;
+    width: 60px;
+    height: 45px;
+    font-size: 20px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9d00ff;
+    color: #fff;
+    width: 340px;
+    height: 50px;
+    margin: 6px;
+    border: #ffffff solid 4px;
+    border-radius: 18px;
+}  
+
+
+
+#verificar {
+    display: flex;
+    color: #9d00ff;
+    border: #9d00ff solid 4px;
+    border-radius: 18px;
+    width: 340px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#verificar:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #9d00ff;
+    color: #fff;
+    border: #fff solid 4px;
+}

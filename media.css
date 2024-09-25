@@ -1,0 +1,29 @@
+@media screen and (max-width: 700px) {
+    header {
+        font-size: 28px;
+    }
+
+    input {
+        width: 110px;
+    }
+
+    selct {
+        width: 40px;
+    }
+
+    #resultado {
+        width: 300px;
+    }
+
+    #verificar{
+        width: 310px;
+    }
+
+    #verificar:hover {
+        transform: scale(1.0);
+        transition: 0.5s;
+        background-color: #9d00ff;
+        color: #fff;
+        border: #fff solid 4px;
+    }
+}
